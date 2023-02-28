@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd.UITests/RTMd.UITests.csproj": {}
+  },
+  "projects": {
+    "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd.UITests/RTMd.UITests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd.UITests/RTMd.UITests.csproj",
+        "projectName": "RTMd.UITests",
+        "projectPath": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd.UITests/RTMd.UITests.csproj",
+        "packagesPath": "/home/riddermark/.nuget/packages/",
+        "outputPath": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd.UITests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/riddermark/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Uno.Material.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Toolkit.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Toolkit.WinUI.Material": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[4.4.13, )"
+            },
+            "Uno.UITest.Helpers": {
+              "target": "Package",
+              "version": "[1.1.0-dev.32, )"
+            },
+            "Xamarin.UITest": {
+              "target": "Package",
+              "version": "[3.2.6, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

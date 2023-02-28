@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/riddermark/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/riddermark/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/home/riddermark/.nuget/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)uno.winui.skia.gtk/4.4.13/build/Uno.WinUI.Skia.Gtk.props" Condition="Exists('$(NuGetPackageRoot)uno.winui.skia.gtk/4.4.13/build/Uno.WinUI.Skia.Gtk.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/6.0.1/buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/6.0.1/buildTransitive/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props')" />
+    <Import Project="$(NuGetPackageRoot)refit/6.3.2/buildTransitive/netstandard2.0/refit.props" Condition="Exists('$(NuGetPackageRoot)refit/6.3.2/buildTransitive/netstandard2.0/refit.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.reactive/2.2.0/buildTransitive/Uno.Extensions.Reactive.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.reactive/2.2.0/buildTransitive/Uno.Extensions.Reactive.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.logging.winui/2.2.0/buildTransitive/Uno.Extensions.Logging.WinUI.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.logging.winui/2.2.0/buildTransitive/Uno.Extensions.Logging.WinUI.props')" />
+    <Import Project="$(NuGetPackageRoot)uno.extensions.hosting.winui/2.2.0/buildTransitive/Uno.Extensions.Hosting.WinUI.props" Condition="Exists('$(NuGetPackageRoot)uno.extensions.hosting.winui/2.2.0/buildTransitive/Uno.Extensions.Hosting.WinUI.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUno_XamlMerge_Task Condition=" '$(PkgUno_XamlMerge_Task)' == '' ">/home/riddermark/.nuget/packages/uno.xamlmerge.task/1.1.0-dev.12</PkgUno_XamlMerge_Task>
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">/home/riddermark/.nuget/packages/uno.winui/4.4.13</PkgUno_WinUI>
+    <PkgUno_WinUI_RemoteControl Condition=" '$(PkgUno_WinUI_RemoteControl)' == '' ">/home/riddermark/.nuget/packages/uno.winui.remotecontrol/4.4.13</PkgUno_WinUI_RemoteControl>
+    <PkgUno_Extensions_Reactive Condition=" '$(PkgUno_Extensions_Reactive)' == '' ">/home/riddermark/.nuget/packages/uno.extensions.reactive/2.2.0</PkgUno_Extensions_Reactive>
+  </PropertyGroup>
+</Project>

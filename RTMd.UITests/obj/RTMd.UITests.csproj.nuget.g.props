@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/riddermark/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/riddermark/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/home/riddermark/.nuget/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)xamarin.uitest/3.2.6/build/Xamarin.UITest.props" Condition="Exists('$(NuGetPackageRoot)xamarin.uitest/3.2.6/build/Xamarin.UITest.props')" />
+    <Import Project="$(NuGetPackageRoot)nunit/3.13.2/build/NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit/3.13.2/build/NUnit.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage/17.3.0/build/netstandard1.0/Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage/17.3.0/build/netstandard1.0/Microsoft.CodeCoverage.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk/17.3.0/build/net45/Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk/17.3.0/build/net45/Microsoft.NET.Test.Sdk.props')" />
+    <Import Project="$(NuGetPackageRoot)nunit3testadapter/4.2.1/build/net35/NUnit3TestAdapter.props" Condition="Exists('$(NuGetPackageRoot)nunit3testadapter/4.2.1/build/net35/NUnit3TestAdapter.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgXamarin_UITest Condition=" '$(PkgXamarin_UITest)' == '' ">/home/riddermark/.nuget/packages/xamarin.uitest/3.2.6</PkgXamarin_UITest>
+    <PkgUno_XamlMerge_Task Condition=" '$(PkgUno_XamlMerge_Task)' == '' ">/home/riddermark/.nuget/packages/uno.xamlmerge.task/1.1.0-dev.12</PkgUno_XamlMerge_Task>
+    <PkgUno_WinUI Condition=" '$(PkgUno_WinUI)' == '' ">/home/riddermark/.nuget/packages/uno.winui/4.3.6</PkgUno_WinUI>
+  </PropertyGroup>
+</Project>

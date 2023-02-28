@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd.Tests/RTMd.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd.Tests/RTMd.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd.Tests/RTMd.Tests.csproj",
+        "projectName": "RTMd.Tests",
+        "projectPath": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd.Tests/RTMd.Tests.csproj",
+        "packagesPath": "/home/riddermark/.nuget/packages/",
+        "outputPath": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/riddermark/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/RTMd.csproj": {
+                "projectPath": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/RTMd.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Uno.Material.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Toolkit.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Toolkit.WinUI.Material": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[4.4.13, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/RTMd.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/RTMd.csproj",
+        "projectName": "RTMd",
+        "projectPath": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/RTMd.csproj",
+        "packagesPath": "/home/riddermark/.nuget/packages/",
+        "outputPath": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/riddermark/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Uno.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Core": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Hosting.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Http": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Http.Refit": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Localization.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Logging.Serilog": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Logging.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Navigation": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Navigation.Toolkit.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Navigation.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Reactive": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Reactive.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Serialization": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Serialization.Http": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Extensions.Serialization.Refit": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Material.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Toolkit.WinUI": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.Toolkit.WinUI.Material": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[4.4.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

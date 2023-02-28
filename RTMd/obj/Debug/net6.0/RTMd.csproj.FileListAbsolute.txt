@@ -1,0 +1,12 @@
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/bin/Debug/net6.0/RTMd.deps.json
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/bin/Debug/net6.0/RTMd.dll
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/bin/Debug/net6.0/RTMd.pdb
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/obj/Debug/net6.0/RTMd.csproj.AssemblyReference.cache
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/obj/Debug/net6.0/RTMd.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/obj/Debug/net6.0/RTMd.AssemblyInfoInputs.cache
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/obj/Debug/net6.0/RTMd.AssemblyInfo.cs
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/obj/Debug/net6.0/RTMd.csproj.CoreCompileInputs.cache
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/obj/Debug/net6.0/RTMd.dll
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/obj/Debug/net6.0/refint/RTMd.dll
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/obj/Debug/net6.0/RTMd.pdb
+/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/obj/Debug/net6.0/ref/RTMd.dll
