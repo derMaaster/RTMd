@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net7.0": {
       "AtkSharp/3.24.24.34": {
         "type": "package",
         "dependencies": {
@@ -2430,7 +2430,7 @@
       },
       "RTMd/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Uno.Extensions.Configuration": "2.2.0",
           "Uno.Extensions.Core": "2.2.0",
@@ -7970,7 +7970,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net7.0": [
       "RTMd >= 1.0.0",
       "Uno.Extensions.Configuration >= 2.2.0",
       "Uno.Extensions.Core >= 2.2.0",
@@ -8013,14 +8013,14 @@
         "/home/riddermark/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
             "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/RTMd.csproj": {
               "projectPath": "/home/riddermark/Riddermark/ToetsApps/RTMd/RTMd/RTMd.csproj"
@@ -8036,8 +8036,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Uno.Extensions.Configuration": {
             "target": "Package",
